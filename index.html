@@ -2,74 +2,146 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ilham Nurmansyah - Network & IoT Specialist Portfolio</title>
     <style>
-        /* Gaya Sederhana untuk Tampilan Website */
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 900px; padding: 20px; background-color: #f4f4f4; color: #333; }
-        header { text-align: center; padding: 20px; background: #2c3e50; color: white; margin-bottom: 20px; border-radius: 8px; }
-        header h1 { margin: 0; font-size: 2.5em; }
-        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-top: 15px; border: 4px solid #3498db; }
-        section { background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h2 { border-bottom: 3px solid #3498db; padding-bottom: 5px; color: #2c3e50; }
-        .project-img { max-width: 100%; height: auto; border-radius: 5px; margin-top: 10px; }
-        .contact-info { text-align: center; margin-top: 30px; padding: 15px; background-color: #ecf0f1; border-radius: 8px; }
+        /* CSS INOVATIF (Dark Mode) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #1a1a1a; /* Latar Belakang Gelap */
+            color: #ecf0f1; /* Teks Putih */
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px; /* Padding di sisi */
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #0d47a1; /* Biru Tua Kontras */
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 1.5px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 25px;
+            border: 6px solid #e74c3c; /* Border Merah Kontras */
+            box-shadow: 0 0 20px rgba(231, 76, 60, 0.6);
+        }
+        section {
+            background: #2c3e50; /* Blok Konten Gelap */
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            border-bottom: 2px solid #3498db; /* Garis Bawah Biru Terang */
+            padding-bottom: 10px;
+            color: #3498db;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        h3 {
+            color: #f1c40f; /* Kuning Emas untuk Subjudul */
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        li strong {
+            color: #95a5a6;
+        }
+        .project-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+            border: 1px solid #34495e;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #34495e;
+            border-radius: 12px;
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Ilham Nurmansyah</h1>
-        <h2>IT Support & Network Specialist</h2>
-        <img src="images/profile.jpg" alt="Foto Profil Ilham Nurmansyah" class="profile-img">
-    </header>
+    <div class="container">
+        <header>
+            <h1>Ilham Nurmansyah</h1>
+            <h2>IT Support & Network Specialist</h2>
+            <img src="images/profile.jpg" alt="Foto Profil Ilham Nurmansyah" class="profile-img">
+        </header>
 
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah <strong>fresh graduate Teknik Komputer</strong> dari Universitas Teknologi Yogyakarta [cite: 5] dengan spesialisasi utama di <strong>Network Configuration dan Internet of Things (IoT)</strong>[cite: 15].</p>
-        <p>Memiliki pengalaman 1+ tahun dalam manajemen jaringan RT/RW Net, melayani 40+ pelanggan dengan tingkat kepuasan 95%[cite: 6]. Saya berkomitmen untuk memastikan *uptime* jaringan yang tinggi dan implementasi solusi monitoring yang efisien[cite: 7].</p>
-    </section>
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            [cite_start]<p>Saya adalah **fresh graduate Teknik Komputer** dari Universitas Teknologi Yogyakarta dengan spesialisasi utama di **Network Configuration dan Internet of Things (IoT)**[cite: 5, 14].</p>
+            [cite_start]<p>Memiliki pengalaman 1+ tahun dalam manajemen jaringan RT/RW Net, melayani 40+ pelanggan dengan tingkat kepuasan 95%[cite: 6]. [cite_start]Saya berkomitmen untuk memastikan *uptime* jaringan yang tinggi dan implementasi solusi monitoring yang efisien[cite: 7].</p>
+        </section>
 
-    <section id="experience">
-        <h2>Pengalaman & Pendidikan</h2>
-        <h3>RT/RW Net Management (Network Support) | 2024 - Sekarang</h3>
-        <ul>
-            <li>Mengelola infrastruktur jaringan untuk 40+ pelanggan dengan tingkat *uptime* 95%[cite: 19].</li>
-            <li>Melakukan instalasi dan konfigurasi router Mikrotik untuk optimasi layanan internet[cite: 19].</li>
-            <li>Berhasil mengurangi *downtime* rata-rata 30% melalui *troubleshooting onsite* dan optimasi konfigurasi[cite: 20].</li>
-            <li>Memberikan *technical support* dengan tingkat kepuasan pelanggan 95%[cite: 20].</li>
-            <img src="images/rack-mikrotik.jpg" alt="Infrastruktur Jaringan RT/RW Net Mikrotik" class="project-img">
-        </ul>
+        <section id="experience">
+            <h2>Pengalaman & Pendidikan</h2>
+            <h3>RT/RW Net Management (Network Support) | 2024 - Sekarang</h3>
+            <ul>
+                <li>Mengelola infrastruktur jaringan untuk 40+ pelanggan dengan tingkat *uptime* 95%. [cite_start]Melakukan instalasi dan konfigurasi router Mikrotik untuk optimasi layanan internet[cite: 19].</li>
+                [cite_start]<li>Berhasil mengurangi *downtime* rata-rata 30% melalui *troubleshooting onsite* dan optimasi konfigurasi[cite: 20].</li>
+                [cite_start]<li>Memberikan *technical support* dengan tingkat kepuasan pelanggan 95%[cite: 20].</li>
+                <img src="images/rack-mikrotik.jpg" alt="Infrastruktur Jaringan RT/RW Net Mikrotik" class="project-img">
+            </ul>
 
-        <h3>Pendidikan</h3>
-        <p><strong>Universitas Teknologi Yogyakarta (UTY)</strong> | S1 - Teknik Komputer (2021-2025)</p>
-        <p>IPK: 3.42/4.00[cite: 15]. Fokus pada pengembangan sistem monitoring berbasis IoT, *network configuration*, dan *mobile application development*[cite: 15].</p>
-    </section>
+            <h3>Pendidikan</h3>
+            <p><strong>Universitas Teknologi Yogyakarta (UTY)</strong> | [cite_start]S1 - Teknik Komputer (2021-2025)[cite: 12, 13].</p>
+            [cite_start]<p>IPK: 3.42/4.00[cite: 15]. [cite_start]Fokus pada pengembangan sistem monitoring berbasis IoT, *network configuration*, dan *mobile application development*[cite: 15].</p>
+        </section>
 
-    <section id="skills">
-        <h2>Keahlian Teknis</h2>
-        <ul>
-            <li><strong>Network Management & Tools:</strong> Mikrotik (Konfigurasi Router), Troubleshooting, Technical Support, RT/RW Net Management.</li>
-            <li><strong>Internet of Things (IoT) & Monitoring:</strong> Blynk Platform, MIT App Inventor (Aplikasi Android), Telegram Bot API, Sensor Gas & Current.</li>
-        </ul>
-    </section>
+        <section id="skills">
+            <h2>Keahlian Teknis</h2>
+            <ul>
+                <li>**Network Management & Tools:** Mikrotik (Konfigurasi Router), Troubleshooting, Technical Support, RT/RW Net Management.</li>
+                <li>**Internet of Things (IoT) & Monitoring:** Blynk Platform, MIT App Inventor (Aplikasi Android), Telegram Bot API, Sensor Gas & Current.</li>
+            </ul>
+        </section>
 
-    <section id="projects">
-        <h2>Proyek & Studi Kasus</h2>
-        
-        <h3>1. Sistem Monitoring Kualitas Udara (Skripsi & KP)</h3>
-        <p>Merancang sistem monitoring kualitas udara berbasis IoT dengan aplikasi Android menggunakan MIT App Inventor[cite: 16]. Mengintegrasikan sensor gas dengan platform Blynk untuk data *real-time*[cite: 23]. Mengembangkan sistem notifikasi otomatis via email untuk *alert* kualitas udara yang berbahaya[cite: 24].</p>
-        <img src="images/blynk-dashboard.png" alt="Dashboard Monitoring Kualitas Udara Blynk" class="project-img">
-        
-        <h3>2. Smart Plug Monitoring System (Pervasive Computing)</h3>
-        <p>Sistem IoT untuk monitoring konsumsi listrik *real-time* menggunakan *current sensor* dan Blynk platform[cite: 46]. Dirancang sebagai solusi *smart home* untuk optimasi penggunaan energi[cite: 45].</p>
-        
-        <h3>3. Fire Detection System (Capstone Project)</h3>
-        <p>Sistem deteksi kebakaran berbasis IoT dengan multi-platform notification menggunakan Telegram Bot API dan *flame sensor*[cite: 63]. Dirancang sebagai sistem keamanan yang fokus pada *response time* cepat dan reliabilitas notifikasi[cite: 64, 65].</p>
-    </section>
+        <section id="projects">
+            <h2>Proyek & Studi Kasus</h2>
+            
+            <h3>1. Sistem Monitoring Kualitas Udara (Skripsi & KP)</h3>
+            [cite_start]<p>Merancang sistem monitoring kualitas udara berbasis IoT dengan aplikasi Android menggunakan MIT App Inventor[cite: 42, 43]. [cite_start]Sistem mengintegrasikan sensor gas dengan platform Blynk untuk data *real-time*[cite: 16, 23]. [cite_start]Mengembangkan sistem notifikasi otomatis via email untuk *alert* kualitas udara yang berbahaya[cite: 24].</p>
+            <img src="images/blynk-dashboard.png" alt="Dashboard Monitoring Kualitas Udara Blynk" class="project-img">
+            
+            <h3>2. Smart Plug Monitoring System (Pervasive Computing Project)</h3>
+            [cite_start]<p>Sistem IoT untuk monitoring konsumsi listrik *real-time* menggunakan *current sensor* dan Blynk platform[cite: 46]. [cite_start]Dirancang sebagai solusi *smart home* untuk optimasi penggunaan energi[cite: 46, 47].</p>
+            
+            <h3>3. Fire Detection System (Capstone Project)</h3>
+            [cite_start]<p>Sistem deteksi kebakaran berbasis Internet of Things dengan multi-platform notification menggunakan Telegram Bot API dan *flame sensor*[cite: 63]. [cite_start]Dirancang sebagai sistem keamanan yang fokus pada *response time* cepat dan reliabilitas notifikasi[cite: 64].</p>
+        </section>
 
-    <div class="contact-info">
-        <h2>Kontak</h2>
-        <p>Email: <strong>nmansyah38@gmail.com</strong> [cite: 72] | Telepon/WA: <strong>081223062968</strong> | Lokasi: Cirebon, Jawa Barat</p>
+        <div class="contact-info">
+            <h2>Kontak</h2>
+            [cite_start]<p>Email: <strong>nmansyah38@gmail.com</strong> [cite: 72] | [cite_start]Telepon/WA: <strong>081223062968</strong> [cite: 69] | [cite_start]Lokasi: Cirebon, Jawa Barat [cite: 70]</p>
+            <p>Silakan hubungi saya untuk peluang kerja atau kolaborasi.</p>
+        </div>
     </div>
 
 </body>
